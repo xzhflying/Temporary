@@ -1,5 +1,55 @@
 [
 	{
+		"id": 27,
+		"name": "Lung Yam Temple",
+		"fileName": "picture.jepg",
+		"description": "This is description,",
+		"websiteUri": "www.google.con.hk",
+		"address": "Tai O",
+		"latitude": 22.2538,
+		"longitude": 113.8696
+	},
+	{
+		"id": 28,
+		"name": "Weel Chair(Lung Yam Temple)",
+		"fileName": "picture.jepg",
+		"description": "This is description,",
+		"websiteUri": "www.google.con.hk",
+		"address": "Tai O",
+		"latitude": 22.2534,
+		"longitude": 113.8696
+	},
+	{
+		"id": 29,
+		"name": "Hwa Kong Temple",
+		"fileName": "picture.jepg",
+		"description": "This is description,",
+		"websiteUri": "www.google.con.hk",
+		"address": "Tai O",
+		"latitude": 22.2523,
+		"longitude": 113.8696
+	},
+	{
+		"id": 30,
+		"name": "Wan Han Bridge",
+		"fileName": "picture.jepg",
+		"description": "This is description,",
+		"websiteUri": "www.google.con.hk",
+		"address": "Tai O",
+		"latitude": 22.2534,
+		"longitude": 113.8683
+	},
+	{
+		"id": 31,
+		"name": "Tian Lee Court",
+		"fileName": "picture.jepg",
+		"description": "This is description,",
+		"websiteUri": "www.google.con.hk",
+		"address": "Tai O",
+		"latitude": 22.2531,
+		"longitude": 113.8664
+	},
+	{
 		"id": 36,
 		"name": "Tiger Pier",
 		"fileName": "36_tai_o_ywca.png",
