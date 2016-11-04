@@ -1,0 +1,11 @@
+[
+	{
+    	"id": 100,
+        "routeNumber": 91M,
+        "typeEnum": 1,
+        "adultPrice": 5.0,
+        "childPrice": 2.0,
+        "departureStation": Tai O,
+        "destinationStation": Tung Chung
+    }
+]
