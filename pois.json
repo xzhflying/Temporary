@@ -1,0 +1,22 @@
+[
+	{
+		"id": "36",
+		"name": "Tiger Pier",
+		"fileName": "36_tai_o_ywca.png",
+		"description": "YWCA Tai O Cultural and Ecological Integrated Resource Centre",
+		"websiteUri": "www.google.com.hk",
+		"address": "Tai O",
+		"latitude": "1.1",
+		"longitude": "0"
+	},
+	{
+		"id": "38",
+		"name": "Tiger Pier",
+		"fileName": "38_tiger_pier.png",
+		"description": "This is a pier",
+		"websiteUri": "www.google.com.hk",
+		"address": "Tai O",
+		"latitude": "1.1",
+		"longitude": "0"
+	}
+]
