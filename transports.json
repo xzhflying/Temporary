@@ -1,11 +1,33 @@
 [
 	{
     	"id": 100,
-        "routeNumber": "91M",
-        "typeEnum": 1,
-        "adultPrice": 5.0,
-        "childPrice": 2.0,
-        "departureStation": "Tai O",
-        "destinationStation": "Tung Chung"
+        "routeNumber": "11",
+        "typeEnum": 0,
+        "direction": {
+            "fromTaiO": {
+                "timetable": {
+                    "monToSat": ["05:20", "05:55", "06:30", "06:50", "07:10", "07:25", "07:45", "08:05", "08:25"],
+                    "sunAndPublicHoliday": ["05:20", "05:55", "06:30", "06:50", "07:10", "07:40"]
+                },
+                "stationPriceMap": {
+                    "Tai O": {"childPrice": 11.8, "adultPrice": 19.2},
+                    "Lung Tin": {"childPrice": 11.8, "adultPrice": 19.2},
+                    "Tung Chung Cable Car Terminal": {"childPrice": 2.4, "adultPrice": 4.7},
+                    "Tung Chung Town Centre": {"childPrice": 2.4, "adultPrice": 4.7}
+                }
+            },
+            "toTaiO": {
+                "timetable": {
+                    "monToSat": ["06:20", "06:45", "07:05", "07:25", "07:30", "07:50", "08:00", "08:15", "08:30"],
+                    "sunAndPublicHoliday": ["06:20", "07:05", "07:30"]
+                },
+                "stationPriceMap": {
+                    "Tung Chung Town Centre": {"childPrice": 11.8, "adultPrice": 19.2},
+                    "Fu Tung Plaza": {"childPrice": 11.8, "adultPrice": 19.2},
+                    "Lung Tin": {"childPrice": 2.4, "adultPrice": 4.7},
+                    "Tai O": {"childPrice": 2.4, "adultPrice": 4.7}
+                }
+            }
+        }
 	}
 ]
