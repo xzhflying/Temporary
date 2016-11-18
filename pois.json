@@ -3,7 +3,7 @@
 	{
 		"id": 1,
 		"name": "Tai O Bus Terminus",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1384.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -11,19 +11,9 @@
 		"longitude": 113.8624
 	},
 	{
-		"id": 4,
-		"name": "Tai O Bus Terminus WC",
-		"fileName": "picture.jpg",
-		"description": "This is description,",
-		"websiteUri": "www.google.com.hk",
-		"address": "Tai O",
-		"latitude": 22.253,
-		"longitude": 113.8623
-	},
-	{
 		"id": 2,
 		"name": "Tai O Promenade",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1386.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -33,7 +23,7 @@
 	{
 		"id": 3,
 		"name": "Tai O New Pier",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1387.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -41,9 +31,19 @@
 		"longitude": 113.8608
 	},
 	{
+		"id": 4,
+		"name": "Tai O Bus Terminus WC",
+		"fileName": "IMG_1385.JPG",
+		"description": "This is description,",
+		"websiteUri": "www.google.com.hk",
+		"address": "Tai O",
+		"latitude": 22.253,
+		"longitude": 113.8623
+	},
+	{
 		"id": 5,
 		"name": "Tai O Rural Committee History and Cultural Exhibition",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1389.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -53,7 +53,7 @@
 	{
 		"id": 6,
 		"name": "Auntie Yan's Tea Cake",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1390.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -61,9 +61,19 @@
 		"longitude": 113.8621
 	},
 	{
+		"id": 7,
+		"name": "Venice Seafood Restaurant",
+		"fileName": "image.JPG",
+		"description": "This is description,",
+		"websiteUri": "www.google.com.hk",
+		"address": "Tai O",
+		"latitude": 0,
+		"longitude": 0
+	},
+	{
 		"id": 8,
 		"name": "Tai Chung Bridge",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1394.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -73,7 +83,7 @@
 	{
 		"id": 9,
 		"name": "Tai Chung Bridge Public Pier",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1393.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -83,7 +93,7 @@
 	{
 		"id": 10,
 		"name": "Fook Mun Lam Restaurant",
-		"fileName": "picture.jpg",
+		"fileName": "IMG_1396.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
@@ -92,7 +102,7 @@
 	},
 	{
 		"id": 11,
-		"name": "Lung Yam Temple",
+		"name": "Kwan Ti Temple / Tin Hau Temple",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
@@ -102,153 +112,153 @@
 	},
 	{
 		"id": 12,
-		"name": "Lung Yam Temple",
+		"name": "Tai O Rural Committee Square",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 13,
-		"name": "Lung Yam Temple",
+		"name": "Wheel Chair (Rural Committee Square)",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 14,
-		"name": "Lung Yam Temple",
+		"name": "Wan Shui To Restaurant",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 15,
-		"name": "Lung Yam Temple",
+		"name": "Tokyo Store",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 16,
-		"name": "Lung Yam Temple",
+		"name": "Tokyo Pier",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 17,
-		"name": "Lung Yam Temple",
-		"fileName": "picture.jpg",
+		"name": "MEOW",
+		"fileName": "IMG_0553.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 22.2549,
+		"longitude": 113.8631
 	},
 	{
 		"id": 18,
-		"name": "Lung Yam Temple",
-		"fileName": "picture.jpg",
+		"name": "Wheel Chair (Kat Hing Front Street)",
+		"fileName": "IMG_0551.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 22.2541,
+		"longitude": 113.8625
 	},
 	{
 		"id": 19,
-		"name": "Lung Yam Temple",
+		"name": "Sun Kee Bridge",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 20,
-		"name": "Lung Yam Temple",
+		"name": "Sun Kee Bridge (Sun Kee Tsuen)",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 21,
-		"name": "Lung Yam Temple",
+		"name": "Stilt House (Aunite Ping)",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 22,
-		"name": "Lung Yam Temple",
+		"name": "Salt Industry Exhibition Hall",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 23,
-		"name": "Lung Yam Temple",
+		"name": "Water Gate (Sun Kee Tsuen)",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 24,
-		"name": "Lung Yam Temple",
+		"name": "CHINESE CHARACTERS",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 25,
-		"name": "Lung Yam Temple",
+		"name": "Tai O Convenience House",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 26,
-		"name": "Lung Yam Temple",
+		"name": "Tai O Sam Lee Shipyard",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 27,
@@ -292,53 +302,53 @@
 	},
 	{
 		"id": 31,
-		"name": "Tian Lee Court",
-		"fileName": "picture.jpg",
+		"name": "Tin Lee Court",
+		"fileName": "IMG_0528.JPG",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2531,
+		"latitude": 222531,
 		"longitude": 113.8664
 	},
 	{
 		"id": 32,
-		"name": "Lung Yam Temple",
+		"name": "Lung Tin Estate WC",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 33,
-		"name": "Lung Yam Temple",
+		"name": "Tai O Community Work Office",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 34,
-		"name": "Lung Yam Temple",
+		"name": "Yung Shu Tau",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 35,
-		"name": "Lung Yam Temple",
+		"name": "Tai O Cultural And Ecological Integrated Resource Centre",
 		"fileName": "picture.jpg",
 		"description": "This is description,",
 		"websiteUri": "www.google.com.hk",
 		"address": "Tai O",
-		"latitude": 22.2538,
-		"longitude": 113.8696
+		"latitude": 0,
+		"longitude": 0
 	},
 	{
 		"id": 36,
