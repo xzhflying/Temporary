@@ -1,0 +1,20 @@
+[
+  {
+    "userId": "S123456789",
+    "rating": 3.5,
+    "title": "Title 1",
+    "description": "Nice place",
+    "photoUris": [
+      ""
+    ]
+  },
+  {
+    "userId": "987654321",
+    "rating": 2.0,
+    "title": "Title 2",
+    "description": "Worth visiting",
+    "photoUris": [
+      ""
+    ]
+  }
+]
