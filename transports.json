@@ -60,14 +60,14 @@
                 "Tung Chung Au Management Office": {"childPrice": 6.0, "adultPrice": 11.8},
                 "Cemetery Area No. 18": {"childPrice": 6.0, "adultPrice": 11.8},
                 "Shek Mun Kap Road Junction": {"childPrice": 2.4, "adultPrice": 4.7},
-                "Lung Tseng Tau": {"childPrice": 2.4, "adultPrice": 4.7}
+                "Lung Tseng Tau": {"childPrice": 2.4, "adultPrice": 4.7},
                 "Wong Ka Wai": {"childPrice": 2.4, "adultPrice": 4.7},
-                "Ha Ling Pei": {"childPrice": 2.4, "adultPrice": 4.7}
+                "Ha Ling Pei": {"childPrice": 2.4, "adultPrice": 4.7},
                 "Sheung Ling Pei": {"childPrice": 2.4, "adultPrice": 4.7},
-                "Tung Chung Rural Committee Office": {"childPrice": 2.4, "adultPrice": 4.7}
-                "Ma Wan Sun Tsuen": {"childPrice": 2.4, "adultPrice": 4.7}
+                "Tung Chung Rural Committee Office": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ma Wan Sun Tsuen": {"childPrice": 2.4, "adultPrice": 4.7},
                 "North Lantao Hospital(North Bound)": {"childPrice": 2.4, "adultPrice": 4.7},
-                "North Lantao Hospital(South Bound)": {"childPrice": 2.4, "adultPrice": 4.7}
+                "North Lantao Hospital(South Bound)": {"childPrice": 2.4, "adultPrice": 4.7},
                 "Tung Chung Cable Car Terminal": {"childPrice": 2.4, "adultPrice": 4.7},
                 "Tung Chung Town Centre": {"childPrice": 2.4, "adultPrice": 4.7}
             }
@@ -381,7 +381,7 @@
                 "sunAndPublicHoliday": ["09:30","11:30","14:00","16:00","18:00"]
             },
             "stationPriceMap": {
-                "Tai O": {"childPrice": 15.0, "adultPrice": 30.0}
+                "Tai O": {"childPrice": 15.0, "adultPrice": 30.0},
                 "Sha Lo Wan": {"childPrice": 15.0, "adultPrice": 30.0},
                 "Tung Chung": {"childPrice": 15.0, "adultPrice": 30.0},
                
@@ -410,7 +410,7 @@
                 "sunAndPublicHoliday": ["09:30","11:30","14:00","16:00","18:00"]
             },
             "stationPriceMap": {
-                "Tai O": {"childPrice": 15.0, "adultPrice": 30.0}
+                "Tai O": {"childPrice": 15.0, "adultPrice": 30.0},
                 "Sha Lo Wan": {"childPrice": 15.0, "adultPrice": 30.0},
                 "Tung Chung": {"childPrice": 15.0, "adultPrice": 30.0},
                
