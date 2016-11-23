@@ -4,26 +4,429 @@
         "typeEnum": 0,
         "fromTaiO": {
             "timetable": {
-                "monToSat": ["05:20", "05:55", "06:30", "06:50", "07:10", "07:25", "07:45", "08:05", "08:25"],
-                "sunAndPublicHoliday": ["05:20", "05:55", "06:30", "06:50", "07:10", "07:40"]
+                "monToSat": ["05:20", "05:55", "06:30", "06:50", "07:10", "07:25", "07:45", "08:05", "08:25",
+                             "08:45","09:05","09:25","09:50", "10:15","10:40","11:05","11:30","11:50","12:10",
+                             "12:30","12:55","13:15","13:25","13:45","14:05","14:20","14:35","14:50","15:05",
+                             "15:15","15:30","15:45","16:00","16:10","16:25","16:35","16:45","16:55","17:00",
+                             "17:05","17:15","17:25","17:35","17:50","18:05","18:20","18:35","18:55","19:15",
+                             "19:35","19:55","20:20","20:45","21:15","21:45","22:20","22:55","23:30","00:15"],
+                "sunAndPublicHoliday": ["05:20","05:55","06:30","06:50","07:10","07:40","08:05","08:30","08:50",
+                                  "09:10","09:35","10:00","10:25","10:50","11:10","11:30","11:45","12:00","12:15",
+                                  "12:30","12:45","13:00","13:15","13:30","13:45","14:00","14:15","14:30","14:45",
+                                  "15:00","15:15","15:30","15:40","15:50","16:00","16:10","16:20","16:30","16:40",
+                                  "16:50","17:00","17:10","17:20","17:30","17:40","17:50","18:00","18:10","18:20",
+                                  "18:30","18:40","18:50","19:00","19:15","19:30","19:45","20:00","20:15","20:30",
+                                  "20:45","21:00","21:20","21:45","22:20","22:55","23:30","00:15"]
             },
             "stationPriceMap": {
                 "Tai O": {"childPrice": 11.8, "adultPrice": 19.2},
-                "Lung Tin": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Lung Tin Estate": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Hang Mei": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Ling Yan Monastery": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Sun Fung Tsuen": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Keung Shan Management Centre": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Lung Chai": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Shing Fai Orchard": {"childPrice": 10.7, "adultPrice": 17.5},
+                "Sam Yuen Ching Shea": {"childPrice": 10.7, "adultPrice": 17.5},
+                "Fat Hwa Yuen": {"childPrice": 10.7, "adultPrice": 17.5},
+                "Sham Wat Road Junction": {"childPrice": 10.7, "adultPrice": 17.5},
+                "Shek Pik Au W.W.O. Access Road": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Sha Tsui": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Sha Tsui Correctional Institution": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Shek Pik Police Stand": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Shui Hau Helicopter Landing Field": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Four-Eye Ma": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shui Hau Village": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shui Hau Village(East)": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Lower Wan Lung": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Upper Wan Lung": {"childPrice": 6.0, "adultPrice": 11.8},
+                "South Lantau Sea Cable Station": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tong Fuk Correctional Institution": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Ma Po Ping Village": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Ma Po Ping Road Junction": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tong Fuk Village": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tong Fuk Beach": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Upper Cheung Sha Beach": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Cheung Sha Bridge": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Butterfly Crest": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Leyburn Villas": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Cheung Sha Fire Station": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Cheung Sha Ha Tsuen": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Cheung Sha Sheung Tsuen": {"childPrice": 6.0, "adultPrice": 11.8},
+                "San Shek Wan Roundabout": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tung Chung Road Junction": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Cheung Sha Catchwater": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Pak Kung Au": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tung Chung Au Management Office": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Cemetery Area No. 18": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shek Mun Kap Road Junction": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Lung Tseng Tau": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Wong Ka Wai": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ha Ling Pei": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Sheung Ling Pei": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Tung Chung Rural Committee Office": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ma Wan Sun Tsuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "North Lantao Hospital(North Bound)": {"childPrice": 2.4, "adultPrice": 4.7},
+                "North Lantao Hospital(South Bound)": {"childPrice": 2.4, "adultPrice": 4.7},
                 "Tung Chung Cable Car Terminal": {"childPrice": 2.4, "adultPrice": 4.7},
-                 "Tung Chung Town Centre": {"childPrice": 2.4, "adultPrice": 4.7}
+                "Tung Chung Town Centre": {"childPrice": 2.4, "adultPrice": 4.7}
             }
         },
         "toTaiO": {
             "timetable": {
-                "monToSat": ["06:20", "06:45", "07:05", "07:25", "07:30", "07:50", "08:00", "08:15", "08:30"],
-                "sunAndPublicHoliday": ["06:20", "07:05", "07:30"]
+                "monToSat": ["06:20","06:45","07:05","07:25","07:30","07:50","08:00","08:15","08:30","08:45","09:05","09:25","09:45","10:05","10:20","10:35","10:50","11:05","11:20","11:35","11:45","12:05","12:20","12:35","12:50","13:10","13:25","13:40","14:00","14:15","14:35","14:50","15:10","15:30","15:50","16:10","16:30","16:50","17:10","17:30","17:50","18:10","18:30","18:45","19:05","19:25","19:45","20:05","20:30","20:55","21:20","21:45","22:15","22:45","23:20","00:00","00:40","01:20"],
+                "sunAndPublicHoliday": ["06:20","07:05","07:30","07:50","08:00","08:15","08:30","08:45","09:00","09:15","09:25","09:35","09:50","10:00","10:10","10:20","10:30","10:45","11:00","11:15","11:23","11:35","11:45","12:00","12:10","12:20","12:30","12:45","13:00","13:15","13:45","14:00","14:15","14:30","14:45","15:00","15:15","15:30","15:45","16:00","16:15","16:30","16:45","17:00","17:15","17:30","17:45","18:00","18:15","18:35","18:55","19:15","19:35","19:55","20:15","20:35","20:55","21:20","21:45","22:15","22:45","23:20","00:00","00:40","01:20"]
             },
             "stationPriceMap": {
                 "Tung Chung Town Centre": {"childPrice": 11.8, "adultPrice": 19.2},
                 "Fu Tung Plaza": {"childPrice": 11.8, "adultPrice": 19.2},
-                "Lung Tin": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Yu Tung Court": {"childPrice": 11.8, "adultPrice": 19.2},
+                "North Lantao Hospital(North Bound)": {"childPrice": 11.8, "adultPrice": 19.2},
+                "North Lantao Hospital(South Bound)": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Tung Chung Rural Committee Office": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Sheung Ling Pei": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Ha Ling Pei": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Wong Ka Wai": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Lung Tseng Tau": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Shek Mun Kap Road Junction": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Cemetery Area No. 18": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Tung Chung Au Management Office": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Pak Kung Au": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Cheung Sha Catchwater": {"childPrice": 11.8, "adultPrice": 19.2},
+                "San Shek Wan Roundabout": {"childPrice": 11.8, "adultPrice": 19.2},
+                "Cheung Sha Sheung Tsuen": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Cheung Sha Police Headquarters": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Cheung Sha Ha Tsuen": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Cheung Sha Fire Station": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Leyburn Villas": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Butterfly Crest": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Cheung Sha Bridge": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Upper Cheung Sha Beach": {"childPrice": 8.5, "adultPrice": 14.5},
+                "Tong Fuk Beach": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tong Fuk Village": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Tong Fuk Correctional Institution": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Ma Po Ping Village": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Ma Po Ping Road Junction": {"childPrice": 6.0, "adultPrice": 11.8},
+                "South Lantau Sea Cable Station": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Upper Wan Lung": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Lower Wan Lung": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shui Hau Village(East)": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shui Hau Village": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Four-Eye Ma": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shui Hau Helicopter Landing Field": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shek Pik Police Stand": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Sha Tsui Correctional Institution": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Sha Tsui": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Shek Pik Au W.W.O. Access Road": {"childPrice": 6.0, "adultPrice": 11.8},
+                "Sham Wat Road Junction": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Fat Hwa Yuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Sam Yuen Ching Shea": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Shing Fai Orchard": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Kwun Yam Monastery": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Keung Shan Management Centre": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Sun Fung Tsuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ling Yan Monastery": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Hang Mei": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Buddhist Fat Ho Memorial College": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Lung Tin Estate": {"childPrice": 2.4, "adultPrice": 4.7},
                 "Tai O": {"childPrice": 2.4, "adultPrice": 4.7}
+            }
+        }
+	}
+      {
+        "routeNumber": "1",
+        "typeEnum": 0,
+        "fromTaiO": {
+            "timetable": {
+                "monToSat": ["05:00","05:30","06:00","06:50","07:10","07:30","07:50","08:30","09:10","09:50","10:35","11:10","11:50","12:30","13:00","13:50","14:30","15:20","15:55","16:30","17:10","17:50","18:35","19:35","20:30","21:05","21:50","22:30","23:20","00:20"],
+                "sunAndPublicHoliday": ["05:30","06:05","06:40","07:00","07:40","08:15","09:00","09:40","10:20","11:00","11:40","12:20","13:00","13:40","14:20","15:00","15:30","16:00","16:25","16:50","17:20","17:50","18:25","19:10","19:50","20:25","21:05","21:55","22:40","23:20","00:10"]
+            },
+            "stationPriceMap": {
+                "Tai O": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Lung Tin Estate": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Hang Mei": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Ling Yan Monastery": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Sun FUng Tsuen": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Keung Shan Management Centre": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Lung Chai": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Shing Fai Orchard": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Sam Yuen Ching Shea": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Fat Hwa Yuen": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Sham Wat Road Junction": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Shek Pik Au W.W.O. Access Road": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Sha Tsui": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Sha Tsui Correctional Institution": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Shek Pik Police Stand": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Shui Hau Helicopter Landing Field": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Four-Eye Ma": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Shui Hau Village": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Shui Hau Village(East)": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Lower Wan LUng": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Upper Wan Lung": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Shouth Lantau Sea Cable Station": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Ma Po Ping Road Junction": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Tong Fuk Village": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Tong Fuk Beach": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Upper Cheung Sha Beach": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Cheung Sha Bridge": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Butterfly Crest": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Leyburn Villas": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Cheung Sha Fire Station": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Cheung Sha Ha Tsuen": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Cheung Sha Police Headquarters": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Cheung Sha Sheung Tsuen": {"childPrice": 4.3, "adultPrice": 6.2},
+                "San Shek Wan Roundabout": {"childPrice": 4.3, "adultPrice": 6.2},
+                "San Shek Wan YWCA Youth Camp": {"childPrice": 4.3, "adultPrice": 6.2},
+                "San Shek Wan Village": {"childPrice": 4.3, "adultPrice": 6.2},
+                "San Shek Wan 3 1/4 Milestone": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Lo Uk Tsuen": {"childPrice": 3.2, "adultPrice": 5.0},
+                "Sun Wai Tsuen": {"childPrice": 3.2, "adultPrice": 5.0},
+                "Lo Wai Tsuen": {"childPrice": 3.2, "adultPrice": 5.0},
+                "Pui O Petrol Station": {"childPrice": 3.2, "adultPrice": 5.0},
+                "Swire House Holiday House": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Nam Shan Campsite": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Nam SHan Sam Uk Tsuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Lai Chi Yuen Cemetery": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Lai Chi Yuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Mui Wo Police Station": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Mui Wo Cooked Food Market": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ngan Wan Estate": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Mui Wo Market": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ngan King Centre": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Mui Wo Ferry Pier": {"childPrice": 2.4, "adultPrice": 4.7}
+            }
+        },
+        "toTaiO": {
+            "timetable": {
+                "monToSat": ["06:00","06:35","07:10","07:50","08:20","09:00","09:45","10:30","11:30","11:50","12:30","13:30","13:50","14:30","15:05","15:30","15:50","16:30","17:00","17:30","17:50","18:40","19:40","20:10","21:00","21:30","22:00","22:40","23:25","00:10","01:10"],
+                "sunAndPublicHoliday": ["06:30","07:15","08:00","08:40","09:10","09:30","10:00","10:20","11:00","11:30","12:00","12:40","13:20","14:00","14:20","15:00","15:30","16:00","16:20","17:00","17:30","18:00","18:20","19:00","20:00","20:20","21:00","21:55","22:20","23:00","23:55","00:20","01:10"]
+            },
+            "stationPriceMap": {
+                "Swire House Holiday House": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Nam Shan Campsite": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Nam SHan Sam Uk Tsuen": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Lai Chi Yuen Cemetery": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Lai Chi Yuen": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Mui Wo Police Station": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Mui Wo Cooked Food Market": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Ngan Wan Estate": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Mui Wo Market": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Ngan King Centre": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Mui Wo Ferry Pier": {"childPrice": 10.7, "adultPrice": 17.7},
+                "Pui O Petrol Station": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Lo Wai Tsuen": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Sun Wai Tsuen ": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Lo Uk Tsuen": {"childPrice": 10.0, "adultPrice": 16.6},
+                "Ngau Au Yuen": {"childPrice": 10.0, "adultPrice": 16.6},
+                "San Shek Wan 3 1/4 Milestone": {"childPrice": 8.0, "adultPrice": 13.5},
+                "San Shek Wan Village": {"childPrice": 8.0, "adultPrice": 13.5},
+                "San Shek Wan YWCA Youth Camp": {"childPrice": 8.0, "adultPrice": 13.5},
+                "San Shek Wan Roudabout": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Cheung Sha Sheung Tsuen": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Cheung Sha Police Headquarters": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Cheung Sha Ha Tsuen": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Cheung Sha Fire Station": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Leyburn Villas": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Butterfly Crest": {"childPrice": 8.0, "adultPrice": 13.5},
+                "Cheung Sha Bridge": {"childPrice": 8.0, "adultPrice": 13.5},
+                "San Shek Wan 3 1/4 Milestone": {"childPrice": 5.6, "adultPrice": 10.8},
+                "San Shek Wan Village": {"childPrice": 5.6, "adultPrice": 10.8},
+                "San Shek Wan YWCA Youth Camp": {"childPrice": 5.6, "adultPrice": 10.8},
+                "San Shek Wan Roudabout": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Cheung Sha Sheung Tsuen": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Cheung Sha Police Headquarters": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Cheung Sha Ha Tsuen": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Cheung Sha Fire Station": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Leyburn Villas": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Butterfly Crest": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Cheung Sha Bridge": {"childPrice": 5.6, "adultPrice": 10.8},
+                "Shek Pik Police Stand": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Sha Tsui Correctional Institution": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Sha Tsui": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Shek Pik Au W.W.O. Access Road": {"childPrice": 4.3, "adultPrice": 6.2},
+                "Sham Wat Road Junction": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Fat Hwa Yuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Sam Yuen Ching Shea": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Shing Fai Orchard": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Kwun Yam Monastery": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Lung Chai": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Keung Shan Management Centre": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Sun Fung Tsuen": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Ling Yan Monastery": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Hang Mei": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Buddhist Fat Ho Memorial College": {"childPrice": 2.4, "adultPrice": 4.7},
+                "Lung Tin Estate": {"childPrice": 2.4, "adultPrice": 4.7}
+            }
+        }
+	}
+      {
+        "routeNumber": "21",
+        "typeEnum": 0,
+        "fromTaiO": {
+            "timetable": {
+                "monToSat": ["07:45","08:30","10:15","11:00","12:00","13:00","14:00","15:00","16:00","16:45","17:15","17:45"],
+                "sunAndPublicHoliday": ["07:45","10:15","11:00","12:00","13:00","13:30","14:00","14:30","15:00","15:30","16:00","16:45","17:15","17:45"]
+            },
+            "stationPriceMap": {
+                "Sham Wat Road Junction": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Fat Hwa Yuen": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Sam Yuen Ching Shea": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Shing Fai Orchard": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Kwun Yam Monastery": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Lung Chai": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Keung Shan Management Centre": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Sun Fung Tsuen": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Ling Yan Monastery": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Hang Mei": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Buddhist Fat Ho Memorial College": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Lung Tin Estate": {"childPrice": 6.6, "adultPrice": 14.0},
+                "Sham Wat Road": {"childPrice": 4.7, "adultPrice": 9.2},
+                "San Hoi TIng": {"childPrice": 4.7, "adultPrice": 9.2},
+                "Ngong Ping Village": {"childPrice": 4.7, "adultPrice": 9.2},
+                "Ngong Ping": {"childPrice": 4.7, "adultPrice": 9.2}
+
+            }
+        },
+        "toTaiO": {
+            "timetable": {
+                "monToSat": ["07:30","10:35","11:20","12:20","13:20","14:20","15:20","16:20","17:15","17:45","18:15"],
+                "sunAndPublicHoliday": ["07:30","10:35","11:20","12:20","13:20","13:50","14:20","14:50","15:20","15:50","16:20","16:45","17:15","17:45","18:30"]
+            },
+            "stationPriceMap": {
+                "Sham Wat Road Junction": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Fat Hwa Yuen": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Sam Yuen Ching Shea": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Shing Fai Orchard": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Kwun Yam Monastery": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Lung Chai": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Keung Shan Management Centre": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Sun FUng Tsuen": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Ling Yan Monastery": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Hang Mei": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Buddhist Fat Ho Memorial College": {"childPrice": 2.4, "adultPrice": 5.0},
+                "Lung Tin Estate": {"childPrice": 2.4, "adultPrice": 5.0}
+
+            }
+        }
+	}
+      {
+        "routeNumber": "N1",
+        "typeEnum": 0,
+        "toTaiO": {
+            "timetable": {
+                "monToSat": ["03:45"],
+                "sunAndPublicHoliday": ["03:45"]
+            },
+            "stationPriceMap": {
+                "Mei Wo Ferry Pier": {"childPrice": 16.0, "adultPrice": 27.0},
+                "Silver Mine Bay Water Treatment Works": {"childPrice": 16.0, "adultPrice": 27.0},
+                "Lai Chi Yuen": {"childPrice": 16.0, "adultPrice": 27.0},
+                "Nam Shan Sam Uk Tsuen": {"childPrice": 16.0, "adultPrice": 27.0},
+                "Nam Shan Campsite": {"childPrice": 16.0, "adultPrice": 27.0},
+                "Swire House Holiday House": {"childPrice": 16.0, "adultPrice": 27.0},
+                "Pui O Petrol Station": {"childPrice": 14.0, "adultPrice": 24.5},
+                "Lo Wai Tsuen": {"childPrice": 14.0, "adultPrice": 24.5},
+                "Sun Wai Tsuen ": {"childPrice": 14.0, "adultPrice": 24.5},
+                "Lo Uk Tsuen": {"childPrice": 14.0, "adultPrice": 24.5},
+                "Ngau Au Yuen": {"childPrice": 14.0, "adultPrice": 24.5},
+                "San Shek Wan 3 1/4 Milestone": {"childPrice": 11.5, "adultPrice": 20.0},
+                "San Shek Wan Village": {"childPrice": 11.5, "adultPrice": 20.0},
+                "San Shek Wan YWCA Youth Camp": {"childPrice": 11.5, "adultPrice": 20.0},
+                "San Shek Wan Roudabout": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Cheung Sha Sheung Tsuen": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Cheung Sha Police Headquarters": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Cheung Sha Ha Tsuen": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Cheung Sha Fire Station": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Leyburn Villas": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Butterfly Crest": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Cheung Sha Bridge": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Upper Cheung Sha Beach": {"childPrice": 11.5, "adultPrice": 20.0},
+                "Tong Fuk Correctional Institution": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Ma Po Ping Village": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Ma Po Ping Road Junction": {"childPrice": 8.0, "adultPrice": 16.2},
+                "South Lantau Sea Cable Station": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Upper Wan Lung": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Lower Wan Lung": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Shui Hau Village(East)": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Shui Hau Village": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Four-Eye Ma": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Shui Hau Helicopter Landing Field": {"childPrice": 8.0, "adultPrice": 16.2},
+                "Shek Pik Police Stand": {"childPrice": 6.0, "adultPrice": 9.7},
+                "Sha Tsui": {"childPrice": 6.0, "adultPrice": 9.7},
+                "Shek Pik Au W.W.O. Access Road": {"childPrice": 6.0, "adultPrice": 9.7},
+                "Sham Wat Road Junction": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Fat Hwa Yuen": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Sam Yuen Ching Shea": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Shing Fai Orchard": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Kwun Yam Monastery": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Lung Chai": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Keung Shan Management Centre": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Sun Fung Tsuen": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Ling Yan Monastery": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Hang Mei": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Buddhist Fat Ho Memorial College": {"childPrice": 2.7, "adultPrice": 6.7},
+                "Lung Tin Estate": {"childPrice": 2.7, "adultPrice": 6.7}
+
+
+
+            }
+        }
+	}
+     {
+        "routeNumber": "FAST FERRY",
+        "typeEnum": 1,
+        "fromTaiO": {
+            "timetable": {
+                "monToSat": ["10:00","14:00","16:00","18:00"],
+                "sunAndPublicHoliday": ["09:30","11:30","14:00","16:00","18:00"]
+            },
+            "stationPriceMap": {
+                "Tai O": {"childPrice": 15.0, "adultPrice": 30.0},
+                "Sha Lo Wan": {"childPrice": 15.0, "adultPrice": 30.0},
+                "Tung Chung": {"childPrice": 15.0, "adultPrice": 30.0},
+               
+               
+            }
+        },
+        "toTaiO": {
+            "timetable": {
+                "monToSat": ["07:00","08:00","09:00","11:00","15:00","17:00","19:00"],
+                "sunAndPublicHoliday": ["07:00","08:30","10:30","12:30","15:00","17:00","19:00"]
+            },
+            "stationPriceMap": {
+                "Tuen Mun Ferry Pier": {"childPrice": 12.5, "adultPrice": 25.0},
+                "Tung Chung": {"childPrice": 12.5, "adultPrice": 25.0},
+                "Sha Lo Wan": {"childPrice": 9, "adultPrice": 18}
+               
+            }
+        }
+	}
+     {
+        "routeNumber": "ORDINARY FERRY",
+        "typeEnum": 1,
+        "fromTaiO": {
+            "timetable": {
+                "monToSat": ["10:00","14:00","16:00","18:00"],
+                "sunAndPublicHoliday": ["09:30","11:30","14:00","16:00","18:00"]
+            },
+            "stationPriceMap": {
+                "Tai O": {"childPrice": 15.0, "adultPrice": 30.0},
+                "Sha Lo Wan": {"childPrice": 15.0, "adultPrice": 30.0},
+                "Tung Chung": {"childPrice": 15.0, "adultPrice": 30.0},
+               
+               
+            }
+        },
+        "toTaiO": {
+            "timetable": {
+                "monToSat": ["07:00","08:00","09:00","11:00","15:00","17:00","19:00"],
+                "sunAndPublicHoliday": ["07:00","08:30","10:30","12:30","15:00","17:00","19:00"]
+            },
+            "stationPriceMap": {
+                "Tuen Mun Ferry Pier": {"childPrice": 12.5, "adultPrice": 25.0},
+                "Tung Chung": {"childPrice": 12.5, "adultPrice": 25.0},
+                "Sha Lo Wan": {"childPrice": 9, "adultPrice": 18}
+               
             }
         }
 	}
